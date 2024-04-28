@@ -2,15 +2,25 @@
 
 def greet_programmer():
     pass
+    print("Hello, programmer!")
+
 
 def greet(name):
     pass
+    print(f"Hello, {name}!")
+
 
 def greet_with_default(name="programmer"):
     pass
+    print(f"Hello, {name}!")
+
 
 def add(num1, num2):
     pass
+    return num1 + num2
+
 
 def halve(number):
     pass
+    if not isinstance(number, str): # checks if number is a string
+        return number / 2  # returns none if line 25 is not true, does not execute the rest. 
